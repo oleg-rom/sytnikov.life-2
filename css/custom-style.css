@@ -24,3 +24,32 @@
 .header-carousel .header-carousel-item .carousel-caption .carousel-caption-content {
     color: #fff !important;
 }
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.service-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-content-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+
+}
+
+.service-content-inner p {
+    flex-grow: 1;
+}
+
+.service-content-inner .btn {
+    align-self: flex-start;
+}
