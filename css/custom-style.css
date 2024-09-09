@@ -53,3 +53,19 @@
 .service-content-inner .btn {
     align-self: flex-start;
 }
+
+.service .service-item .service-content::before {
+    background: rgba(76, 187, 23, .5);
+}
+
+.service .service-item:hover .service-content::before {
+    background: rgba(76, 187, 23, .5);
+}
+
+.service .service-item:hover .service-img::before {
+    background: rgba(76, 187, 23, .3);
+}
+
+/* testimonial */
+.testimonial {
+    background: linear-gradient(rgba(76, 187, 23, 0.9), rgba(76, 187, 23, 0.9)), url(../img/carousel-1.jpg);
